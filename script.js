@@ -33,7 +33,7 @@ ball.classList.add('click')
 res.innerHTML = `The Magic Ball says: ${responses[Math.floor(Math.random() * (responses.length - 0 + 1) + 0)]}`
 
 setTimeout(() => {
-res.classList.remove('invisible')
-ball.classList.remove('click')
-}, 3000)
+    res.classList.remove('invisible')
+    ball.classList.remove('click')
+    }, 3000)
 }
